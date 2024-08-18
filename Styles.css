@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arrial', sans-serif;
+    color: beige;
+    background: linear-gradient(125deg, purple, #06010c 75% )
+    }
+    h2 {
+        text-transform: uppercase;
+        font-size: 7rem;
+        background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/1811239-luz-roxo-rosa-gradiente-desfoque-textura-vetor.jpg);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: cover;
+        background-position:right
+    }
