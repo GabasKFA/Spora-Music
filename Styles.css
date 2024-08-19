@@ -44,6 +44,10 @@ h3 {
     font-size: 2rem;
     padding-bottom: 5px;
 }
+img{
+       margin: 14px;
+    height: 164px;
+}
 .relacionados{
     display: flex;
     overflow-x: auto;
@@ -51,10 +55,7 @@ h3 {
 }
 .relacionados-videos img{
     opacity: 0.3;
-    margin: 14px;
-    height: 164px;
 }
 .relacionados-videos img:hover{
     opacity: 1.0;
-
 }
