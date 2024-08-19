@@ -1,15 +1,52 @@
 body {
-    font-family: 'Arrial', sans-serif;
+    font-size: 2rem;
+    font-family: "League Spartan", sans-serif;
+    margin: 0px;
+    padding: 10px, center;
     color: beige;
-    background: linear-gradient(125deg, purple, #06010c 75% )
-    }
-    h2 {
-        text-transform: uppercase;
-        font-size: 7rem;
-        background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/1811239-luz-roxo-rosa-gradiente-desfoque-textura-vetor.jpg);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-size: cover;
-        background-position:right
-    }
+    background: linear-gradient(125deg, purple, #06010c 75%)
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 10rem;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/1811239-luz-roxo-rosa-gradiente-desfoque-textura-vetor.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center
+}
+
+.videos {
+    background: linear-gradient(80deg, rgba(133, 6, 236, 0.336), rgb(193, 0, 241, 70%));
+    margin-bottom: 300px;
+    margin-top: 30px;
+    margin-block-end: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    padding-top: 50px;
+}
+
+.NCS {
+    background: whitesmoke;
+    margin: 10px;
+}
+
+img {
+    margin: 14px;
+    height: 180px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
