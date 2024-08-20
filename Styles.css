@@ -1,8 +1,7 @@
 body {
     font-size: 2rem;
     font-family: "League Spartan", sans-serif;
-    margin: 0px;
-    padding: 10px, center;
+    border: 10px;
     color: beige;
     background: linear-gradient(125deg, purple, #06010c 75%)
 }
@@ -22,7 +21,8 @@ h1 {
 
 .videos {
     background: linear-gradient(80deg, rgba(133, 6, 236, 0.336), rgb(193, 0, 241, 70%));
-    margin-bottom: 300px;
+    margin: 50px;
+    margin-bottom: 30px;
     margin-top: 30px;
     margin-block-end: 50px;
     display: flex;
@@ -45,17 +45,20 @@ h3 {
     padding-bottom: 5px;
 }
 img{
-       margin: 14px;
-    height: 164px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 11px;
+    height: 170px;
 }
-.relacionados{
+.relacionados img{
+    opacity: 0.8;
+}
+.relacionados img:hover{
+    opacity: 1.2;
+    border: 2px solid white;
+}
+.Videos-Relacionados{
     display: flex;
     overflow-x: auto;
     gap: 10px;
-}
-.relacionados-videos img{
-    opacity: 0.3;
-}
-.relacionados-videos img:hover{
-    opacity: 1.0;
 }
